@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title>타이틀</title>
+<script></script>
+<!-- 폰트 아이콘 -->	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+<!-- Reset CSS -->		<link rel="stylesheet" href="css/reset.css">
+<!-- Style CSS -->		<link rel="stylesheet" href="css/style.css">
+<!-- Owl Carousel assets -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.transitions.css">
+<style>
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script> 
+$(function(){
+		$("#owl").owlCarousel({
+			autoPlay: true, 
+			navigation: false, 
+			singleItem: true,
+			items: 1, 
+			transitionStyle: "fade",  //fade, backSlide, goDown, fadeUp
+			beforeMove: before,
+			afterMove: after
+	});
+	function before(){
+			console.log("before Moving");
+	}
+	function after(){
+			console.log("after Moving");
+	}
+});
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header>
+		<div class="header_inner">
+			<h1><a href="" title="logo"><img src="images/logo.png" alt="NARS"></a></h1>
+			<nav>
+				<ul class="sub_menu">
+					<li>
+						<a href="">NEW</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">신제품</a></li>
+									<li><a href="">뉴 컬렉션</a></li>
+									<li><a href="">HOW-TO FILMS</a></li>
+								</ul>
+								<div class="sub_key"><img src="images/logo.png" alt="NARS"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">BEST SELLER</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">어워드 위너</a></li>
+									<li><a href="">오르가즘 컬렉션</a></li>
+									<li><a href="">컬트 클래식</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">MAKEUP</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">립</a></li>
+									<li><a href="">치크</a></li>
+									<li><a href="">페이스</a></li>
+									<li><a href="">아이</a></li>
+									<li><a href="">멀티유즈</a></li>
+									<li><a href="">아이코닉 NARS</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">SKIN CARE</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">나스스킨</a></li>
+									<li><a href="">메이크업 리무버</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">BRUSHES</a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">PALETTES & GIFTS</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href=""><i class="icon-search"></i></a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">2depth</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href=""><i class="icon-map-marker"></i></a>
+						<div class="sub">
+							<div class="sub_contents">
+								<ul>
+									<li><a href="">2depth</a></li>
+								</ul>
+								<div class="sub_key"></div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+</div>
+</header>
+
+
+<div class="main">
+		<div class="main_visual1">
+			<div class="main_visual1_wrap">
+				<!-- <ul class="direction_nav">
+					<li class="prev"><a href="" title="prev"><img src="images/button_backward.png" alt="prev"></a></li>
+					<li class="next"><a href="" title="next"><img src="images/button_forward.png" alt="next"></a></li>
+				</ul> -->
+   				<ul id="owl" class="owl-carousel">
+					<div class="item"><li><img src="images/keyvisual/keyvisual_ (1).png" alt="skin"></li></div>
+					<div class="item"><li><img src="images/keyvisual/keyvisual_ (2).png" alt="new_vibe"></li></div>
+					<div class="item"><li><img src="images/keyvisual/keyvisual_ (3).png" alt="warm_it_up"></li></div>
+					<div class="item"><li><img src="images/keyvisual/keyvisual_ (4).png" alt="warm_it_up"></li></div>
+					<div class="item"><li><img src="images/keyvisual/keyvisual_ (5).png" alt="warm_it_up"></li></div>
+				</ul>
+			</div>
+		</div>
+		</div>
+
+
+
+
+	<section id="product">
+		<h2>BEST SELLER</h2>
+			<div class="best">
+		<ul>
+			<li>
+				<a href="" title="블러쉬 - 오르가즘">
+					<img src="images/item_1.png" alt="블러쉬 - 오르가즘">
+					<span class="item_name">블러쉬 - 오르가즘</span>
+					<span class="item_cost">\ 67,000</span>
+				</a>
+			</li>
+			<li>
+				<a href="" title="올데이 루미너스 웨이트리스 파운데이션">
+					<img src="images/item_2.png" alt="올데이 루미너스 웨이트리스 파운데이션">
+					<span class="item_name">올데이 루미너스 웨이트리스 파운데이션</span>
+					<span class="item_cost">\ 67,000</span>
+				</a>
+			</li>
+			<li>
+				<a href="" title="벨벳 매트 립 펜슬 - 드래곤 걸">
+					<img src="images/item_3.png" alt="벨벳 매트 립 펜슬 - 드래곤 걸">
+					<span class="item_name">벨벳 매트 립 펜슬 - 드래곤 걸</span>
+					<span class="item_cost">\ 36,000</span>
+				</a>
+			</li>
+			<li>
+				<a href="" title="퓨어 래디언트 틴티드 모이스처라이저">
+					<img src="images/item_4.png" alt="퓨어 래디언트 틴티드 모이스처라이저">
+					<span class="item_name">퓨어 래디언트 틴티드 모이스처라이저</span>
+					<span class="item_cost">\ 63,000</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section id="sub_keyvisual">
+		<h2></h2>
+			<div class="sub_keyvisual">
+				<img src="images/main_visual.jpg" alt="NARS">
+			</div>
+		</section>
+<section id="collection">
+			<h2><img src="images/logo_2.png" alt="NARS"></h2>
+			<ul>
+				<li><a href="" title=""><img src="images/mid_key_1.png" alt=""></a></li>
+				<li><a href="" title=""><img src="images/mid_key_2.png" alt=""></a></li>
+				<li><a href="" title=""><img src="images/mid_key_3.png" alt=""></a></li>
+				<li><a href="" title=""><img src="images/mid_key_4.png" alt=""></a></li>
+				<li><a href="" title=""><img src="images/mid_key_5.png" alt=""></a></li>
+				<li><a href="" title=""><img src="images/mid_key_6.png" alt=""></a></li>
+			</ul>
+</section>
+	<footer>
+			<div class="footer_menu">
+				<ul>
+					<li><a href="http://www.narscosmetics.co.kr/customer-care.html" title="">고객 서비스</a></li>
+					<li><a href="http://www.narscosmetics.co.kr/nars-careers.html" title="">채용정보</a></li>
+					<li><a href="http://www.narscosmetics.co.kr/on/demandware.store/Sites-KR-Site/en_KR/Stores-Find" title="">STORE</a></li>
+					<li><a href="http://www.narscosmetics.co.kr/Events.html" title="">이벤트</a></li>
+					<li><a href="http://www.narscosmetics.co.kr/optin-email.html" title="">이메일 구독신청</a></li>
+				</ul>
+			</div>
+			<div class="footer_sns">
+				<ul>
+				<li><a href="http://instagram.com/narsissist" title="instagram"><img src="images/footer-instagram.png" alt=""></a></li>
+				<li><a href="http://twitter.com/narsissist" title="twitter"><img src="images/footer-twitter.png" alt=""></a></li>
+				<li><a href="http://facebook.com/narscosmetics" title="facebook"><img src="images/footer-facebook.png" alt=""></a></li>
+				<li><a href="http://youtube.com/user/NARSMEDIA" title="youtube"><img src="images/footer-youtube.png" alt=""></a></li>
+				<li><a href="http://blog.naver.com/nars_korea" title="Naver"><img src="images/footer-naver.png" alt=""></a></li>
+			</ul>
+			</div>
+		<div class="footer_text">
+			<ul>
+				<li><a href="http://www.narscosmetics.co.kr/terms.html" title="">이용약관</a></li>
+				<li><a href="http://www.narscosmetics.co.kr/privacy-policy.html" title="">개인정보보호정책</a></li>
+			</ul>
+		</div>
+		<div class="footer_text">
+			<p>© 2017 NARS Cosmetics. All Rights Reserved.</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
